@@ -24,7 +24,7 @@ Current focus: reproducible biomedical ML — well-documented codebases, clear b
 
 ## Technical Stack
 
-`Python` · `PyTorch` · `scikit-learn` · `RDKit` · `MNE-Python` · `pandas` · `NumPy` · `Jupyter` · `Git`
+`Python 3.11+` · `NumPy · pandas` · `scikit-learn` · `XGBoost / LightGBM` `PyTorch / Chemprop` · `RDKit` · `MNE-Python` · `QSAR / ADMET` · `PBPK · ODE` · `conformal UQ · SHAP` · `FastAPI` · `Streamlit` · `REST API · SDK · CLI` · `Jupyter` · `Git` · `CI · pytest · ruff/mypy`
 
 ---
 
