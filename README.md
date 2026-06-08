@@ -2,7 +2,7 @@
 
 Current focus: reproducible biomedical ML — well-documented codebases, clear baselines, careful validation. Interested in models that connect molecular data with CNS drug discovery and brain research.
 
-[![GitHub](https://img.shields.io/badge/GitHub-learning2think-181717?style=flat&logo=github)](https://github.com/learning2think) · [![Email](https://img.shields.io/badge/Email-contact-D14836?style=flat&logo=gmail)](mailto:good.bqw@gmail.com) · [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2325--4678-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0007-2325-4678)
+[![GitHub](https://img.shields.io/badge/GitHub-learning2think-181717?style=flat&logo=github)](https://github.com/learning2think) [![Email](https://img.shields.io/badge/Email-contact-D14836?style=flat&logo=gmail)](mailto:good.bqw@gmail.com) [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2325--4678-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0007-2325-4678)
 
 ---
 
