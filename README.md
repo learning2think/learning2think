@@ -1,40 +1,107 @@
-3rd-year MD student (Moscow) building a research profile at the intersection of machine learning, computational neuroscience, and cheminformatics.
+Medical student and student researcher in Moscow working at the intersection of
+blood-brain barrier biology, neuropharmacology, cheminformatics, and biomedical
+machine learning.
 
-Current focus: reproducible biomedical ML — well-documented codebases, clear baselines, careful validation. Interested in models that connect molecular data with CNS drug discovery and brain research.
+My current work focuses on reproducible computational approaches to CNS drug
+discovery, particularly uncertainty-aware prediction of small-molecule
+blood-brain barrier penetration and the connection between computational
+predictions and subsequent experimental research.
 
-[![GitHub](https://img.shields.io/badge/GitHub-learning2think-181717?style=flat&logo=github)](https://github.com/learning2think) [![Email](https://img.shields.io/badge/Email-contact-D14836?style=flat&logo=gmail)](mailto:good.bqw@gmail.com) [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2325--4678-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0007-2325-4678)
+[![GitHub](https://img.shields.io/badge/GitHub-learning2think-181717?style=flat&logo=github)](https://github.com/learning2think)
+[![Email](https://img.shields.io/badge/Email-contact-D14836?style=flat&logo=gmail)](mailto:good.bqw@gmail.com)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0007--2325--4678-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0007-2325-4678)
 
 ---
 
 ## Research Interests
 
-- **Computational neuroscience:** neural coding, decision-making, MEG/EEG analysis, Bayesian models
-- **Cheminformatics:** molecular representations, ADMET / BBB prediction, drug discovery workflows
-- **Biomedical ML:** reproducible pipelines, uncertainty quantification, interpretable baselines
+- Blood-brain barrier biology and the neurovascular unit
+- Neuropharmacology and CNS drug discovery
+- Cheminformatics and molecular machine learning
+- Uncertainty quantification and selective prediction
+- PK/PBPK and mechanistic modeling
+- Reproducible biomedical research
+- Computational neuroscience and computational psychiatry
 
 ---
 
-## Current Projects
+## Current Research
 
-- **[in-silico-bbb](https://github.com/learning2think/in-silico-bbb)** (working repo, to be opened with preprint) — ML-based blood-brain barrier permeability prediction; manuscript in preparation, *Journal of Cheminformatics*
-- Building an MEG analysis pipeline with MNE-Python (learning phase, public notebook soon)
-- Writing implementation notes and paper summaries as I read
+### In Silico BBB
+
+I am developing In Silico BBB, an open research software platform for early
+computational assessment of small-molecule blood-brain barrier penetration,
+uncertainty analysis, mechanistic modeling, and planning of subsequent research.
+
+The project currently includes:
+
+- BBB+/BBB- classification and exploratory quantitative total-logBB prediction
+- scaffold-based and retrospective temporal validation
+- applicability-domain and structural-support assessment
+- calibration, bootstrap analysis, conformal prediction, and selective prediction
+- molecular descriptors and structural similarity analysis
+- research-oriented transport and reduced PBPK simulations
+- reproducible research workflows with explicit separation of biological endpoints
+- Python package, CLI, REST API, Python SDK, PostgreSQL-backed project storage,
+  web client, and desktop client
+
+In retrospective temporal evaluation within B3DB (n = 1,580), a frozen selective
+BBB policy achieved 60.76% coverage and 9.27% selective risk, compared with
+22.09% risk at full coverage.
+
+These results are retrospective and internal to B3DB; they are **not independent
+external, prospective, clinical, or regulatory validation**.
+
+The current scientific question is whether this reduction in risk persists when
+the unchanged policy is evaluated on independently curated external data.
+
+Manuscript in preparation.
+
+### BBB Permeability Benchmark
+
+A reproducible molecular ML benchmark exploring how chemically structured
+train/test separation affects apparent BBB-classification performance.
+
+The project compares conventional and chemistry-aware validation strategies and
+examines discrimination, calibration, and chemical-space overlap.
+
+[Repository](https://github.com/learning2think/bbb-permeability)
+
+---
+
+## Publication
+
+Belchiuk M. P. et al.  
+*Blood-Brain Barrier as a Physiological and Toxicological System of Brain
+Protection: Structural and Functional Organization, Transport Mechanisms,
+and the Significance of Dysfunction in CNS Diseases.*
+
+Medicine in Kuzbass, 2026.  
+DOI: 10.24412/2687-0053-2026-2-8-18
 
 ---
 
 ## Technical Stack
 
-`Python 3.11+` · `NumPy · pandas` · `scikit-learn` · `XGBoost / LightGBM` `PyTorch / Chemprop` · `RDKit` · `MNE-Python` · `QSAR / ADMET` · `PBPK · ODE` · `conformal UQ · SHAP` · `FastAPI` · `Streamlit` · `REST API · SDK · CLI` · `Jupyter` · `Git` · `CI · pytest · ruff/mypy`
+Scientific Python: Python · NumPy · pandas · scikit-learn  
+Cheminformatics: RDKit · molecular descriptors · fingerprints · scaffold analysis  
+ML: classification · calibration · bootstrap validation · conformal prediction · selective prediction  
+Modeling: PK/PBPK · compartmental models · ODE-based simulation · sensitivity analysis  
+Software: FastAPI · PostgreSQL · REST APIs · Python SDK · CLI · Git · pytest  
+Additional exposure: PyTorch · Next.js · Tauri
 
 ---
 
-## Near-Term Goals
+## Current Goals
 
-- Preprint the BBB paper and release a reproducible repo with DOI
-- Build small public examples in RDKit and MNE-Python
-- Join a lab in computational neuroscience or biomedical ML
-- Present at conferences
+1. Independently evaluate the frozen selective BBB policy on externally curated data.
+2. Prepare the first In Silico BBB research manuscript and software paper.
+3. Connect computational BBB modeling with experimental neuropharmacology.
+4. Develop stronger foundations in neuroscience and computational neuroscience.
+5. Gain research experience in an international laboratory.
 
 ---
 
-*I try to write code others can rerun, build models with honest baselines, and keep notes worth returning to.*
+I am particularly interested in research environments where computational models
+are treated as tools for generating testable biological hypotheses rather than
+as substitutes for experimental evidence.
